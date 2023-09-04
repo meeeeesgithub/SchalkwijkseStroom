@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Brandon Heading;
+    src: url(fonts/Brandon_blk\ 2.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Brandon NormalText;
+    src: url(fonts/Brandon_thin.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Brandon NavMenu;
+    src: url(fonts/Brandon_med.otf) format("opentype");
+}
+
+:root {
+    --ParagraphColor: #000;
+    --HeadingAndMenuColor: #9cc3dc;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: calc(10vh + 1.4rem);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    padding: .7rem 0;
+    text-transform: uppercase;
+    color: var(--HeadingAndMenuColor);
+    font-family: "Brandon NavMenu";
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    z-index: 2;
+    font-size: 1.3rem;
+
+    &>ul {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        list-style-type: none;
+
+        & a {
+            all: unset;
+            cursor: pointer;
+        }
+    }
+
+    .logo {
+        width: 15vw;
+        margin-right: 30px;
+    }
+}
+
+header {
+    margin-top: calc(10vh + 1.4rem);
+    overflow-x: hidden;
+
+    &>img {
+        max-width: 100vw;
+    }
+
+}
+
+p {
+    color: var(--ParagraphColor);
+}
+
+section {
+    text-align: left;
+    max-width: 75vw;
+    margin: auto;
+
+    &>h2 {
+        color: var(--HeadingAndMenuColor);
+
+        margin-right: auto;
+        margin-bottom: -0.4em;
+        font-family: "Brandon Heading";
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    &>p {
+        font-family: "Brandon NormalText";
+        font-weight: 600;
+        line-height: 1.5;
+        font-size: .9rem;
+        padding-top: 0;
+    }
+
+    &#Contact {
+        & form {
+            display: grid;
+            width: 50vw;
+            margin-top: 10px;
+            margin: auto;
+            grid-template-areas: "name message"
+                "email message"
+                "submit submit";
+
+            &>#bericht {
+                grid-area: message;
+            }
+
+            &>#email {
+                grid-area: email;
+            }
+
+            &>#naam {
+                grid-area: name;
+            }
+
+            &>#submit {
+                grid-area: submit;
+            }
+
+            &>input {
+                all: unset;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 0;
+            }
+
+
+
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    nav {
+        &>ul {
+            gap: 30px;
+        }
+    }
+}
