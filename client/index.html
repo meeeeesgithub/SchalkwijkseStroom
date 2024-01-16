@@ -5,97 +5,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schalkwijkse Stroom</title>
+    <meta name="description"
+        content="Schalkwijkse Stroom - Ontdek ons zonnepark en hoe duurzame energie wordt geproduceerd op ons land. Lees over onze aanleiding, participatie, technische gegevens en blijf op de hoogte van het laatste nieuws. Neem contact met ons op voor meer informatie.">
+    <meta name="og:description"
+        content="Schalkwijkse Stroom - Ontdek ons zonnepark en hoe duurzame energie wordt geproduceerd op ons land. Lees over onze aanleiding, participatie, technische gegevens en blijf op de hoogte van het laatste nieuws. Neem contact met ons op voor meer informatie.">
+
+    <meta property="og:image" content="https://schalkwijksestroom.nl/illustraties/illustratie%201.png">
+    <meta property="image" content="https://schalkwijksestroom.nl/illustraties/illustratie%201.png">
+
     <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="afbeeldingen/icoontje.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.9/photoswipe.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.9/photoswipe-lightbox.esm.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.9/photoswipe.esm.min.js" defer></script>
 </head>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2XNQKWT38B"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2XNQKWT38B');
+</script>
+
 <body>
-    <nav>
+
+    <nav class="bigscreens">
         <ul>
-            <a href="#"><img src="logo/logo_blauw.png" class="logo" alt="logo Blue" /></a>
-            <li><a href="#HetPark">Het Park</a></li>
+            <a href="#"><img src="logo/logo_geel.png" class="logo" alt="logo Blue" /></a>
+            <li><a href="#DeAanleiding">De aanleiding</a></li>
             <li><a href="#Participatie">Participatie</a></li>
             <li><a href="#TechnischeGegevens">Technische Gegevens</a></li>
             <li><a href="#Nieuws">Nieuws</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
+    <nav class="smallscreens">
+        <div class="logocontainer">
+            <img src="logo/logo_geel.png" class="logo" alt="logo Blue" />
+        </div>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                    <li><a href="#">Top</a></li>
+                    <li><a href="#DeAanleiding">De aanleiding</a></li>
+                    <li><a href="#Participatie">Participatie</a></li>
+                    <li><a href="#TechnischeGegevens">Technische Gegevens</a></li>
+                    <li><a href="#Nieuws">Nieuws</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <header>
         <img class="HeaderBackground" src="illustraties/illustratie 1.svg" />
     </header>
 
-    <section id="HetPark">
-        <h2>Het Park</h2>
-        <p>Op de locatie van het zonnepark van Schalkwijkse Stroom boert de familie Van Dijk al meerdere generaties. Van
-            een
-            gemengd bedrijf met varkens, fruit en koeien naar een melkveebedrijf dat in 2013 is gestopt met melken. In
-            2008 werd
-            het dak van de ligboxenstal vol gelegd met zonnepanelen vanwege het stroomverbruik van de aanwezige
-            melkrobot en
-            daarmee was de interesse gewekt in zonne-energie.</p>
-        <p>Deze interesse kreeg nader vorm met het onderzoek in 2018 om zelfstandig een eigen zonnepark aan te leggen
-            waarna
-            er verschillende gesprekken volgde met ontwikkelaars. De basisgedachte is steeds geweest om te ontwikkelen
-            op basis
-            van gelijkwaardigheid en dit resulteerde in een 50:50 samenwerking met Groen Leven BV. In 2019 is de
-            vergunning
-            aangevraagd en vergund, waarna in 2020 de SDE-beschikking volgde.
-        </p>
-        <p>Vanwege de nieuwbouw van een onderverdeelstation is de bouw van het zonnepark enigszins vertraagd, maar zal
-            naar
-            verwachting opgeleverd worden in 2023.</p>
-    </section>
-    <section id="Participatie">
-        <h2>Participatie</h2>
-        <p>Bij veel zonneparken wordt de omgeving de kans geboden mee te investeren in het zonnepark, hier is bewust
-            niet voor
-            gekozen om de volgende reden. Bij een dergelijke participatie staat vaak het financiele rendement centraal
-            en krijgen
-            vermogende bewoners kans om hun geld te beleggen. Wij hebben ervoor gekozen om per geproduceerde MwH een
-            bedrag aan het dorp te geven voor de verdere verduurzaming</p>
-        <p>De doelstelling hierbij is om de energiekosten per huishouden te verlagen. In samenwerking met Cooperatie
-            Duurzaam
-            Eiland wordt er per huishouden gekeken wat het meest effectief is voor dat huishouden en een directe
-            bijdrage in de
-            kosten betaalt, voor nader informatie zie https://www.duurzaameiland.nl/energie-armoede/</p>
-    </section>
-    <section id="TechnischeGegevens">
-        <h2>Technische Gegevens</h2>
-        <p>In totaal worden er ruim 30.000 zonnepanelen geinstalleerd op ruim 16 hectare die op jaarbasis 17 Mw gaan
-            produceren.
-            Uitgaande van een gemiddeld verbruik per huishouden van 2500 Kwh (cijfers PBL 2022 voor woningen met
-            gasaansluiting)
-            betekent dit het verbruik van 6.800 huishoudens. Komende jaren zal het electriciteitsverbruik van woningen
-            gaan stijgen normaal gesproken en neemt de behoefte aan duurzame stroom alleen maar verder toe. Het moment
-            waarop
-            er stroom wordt aangeboden en gevraagd gaat steeds meer van elkaar afwijken. Op een zonnige zondag is er
-            weinig
-            stroomvraag en wel aanbod wat steeds vaker leidt tot negatieve stroomprijzen. Mede hierom is in 2022 een
-            vergunning
-            aangevraagd voor een 10 MW batterij die gebruikt gaat worden om de onbalans te verminderen. Vergunning is in
-            2023
-            verkregen en batterijen zullen medio 2024 geplaatst gaan worden.</p>
-    </section>
-    <section id="Nieuws">
-        <h2>Nieuws</h2>
-        <p>Tijdens de bouw zal met enige regelmaat een foto worden geplaats van de voortgang van het project. Wanneer u
-            een
-            vraag of opmerking heeft kunt u dit via onderstaand email-adres kenbaar maken.</p>
-    </section>
-    <section id="Contact">
-        <h2>Contact</h2>
-        <form action="/email" method="post">
-            <input type="text" id="naam" name="naam" placeholder="naam">
-            <input type="email" id="email" name="email" placeholder="email">
-            <textarea name="message" id="bericht" placeholder="Je bericht..." id="message" cols="30"
-                rows="10"></textarea>
-            <button type="submit" id="submit">Verzenden</button>
-        </form>
-    </section>
+    <main>
+        <section id="DeAanleiding">
+            <h2>De aanleiding</h2>
+            <p>
+                Aan het einde van 2023 staan er zonnepanelen op het land waar recent nog koeien liepen te grazen, hoe is
+                dat zo gekomen?
+                Inmiddels de 4e generatie boert op de plek waar de komende jaren duurzame energie wordt geproduceerd.
+                Waar de eerste
+                generatie begon met een gemengd bedrijf met varkens, fruit en koeien ontwikkelde het bedrijf zich tot
+                een
+                geautomatiseerd melkveebedrijf met een melkrobot. In 2008 werd het dak van de ligboxenstal vol gelegd
+                met zonnepanelen
+                vanwege het stroomverbruik van de aanwezige melkrobot en hiermee was de interesse gewekt in
+                zonne-energie.
+            </p>
+            <p>
+                De
+                sluimerende gedachte om zelfstandig een eigen zonnepark aan te leggen kreeg in 2018 meer vorm. Toen
+                begon de zoektocht
+                naar partijen om mee samen te werken en werd de basis gelegd voor de volgende verandering. De
+                basisgedachte is steeds
+                geweest om te ontwikkelen op basis van gelijkwaardigheid en dit resulteerde in een 50:50 samenwerking
+                met GroenLeven BV.
+                In 2019 is de omgeving geïnformeerd, vergunning aangevraagd en in 2020 is de noodzakelijke subsidie
+                verkregen. Vanwege
+                de nieuwbouw van een onderverdeelstation is de bouw van het zonnepark enigszins vertraagd, de eerste
+                stroom zal naar verwachting
+                begin 2024 geleverd worden.
+            </p>
+            <img src="illustraties/illustratie 4.svg" alt="Illustratie 4">
 
-    <div style="height: 100vw;"></div>
-    <div style="height: 100vw;"></div>
-    <div style="height: 100vw;"></div>
+        </section>
+        <section id="Participatie">
+            <h2>Participatie</h2>
+            <p>Bij veel zonneparken wordt de kans geboden mee te investeren in het zonnepark, hier is bewust niet voor
+                gekozen om de
+                volgende reden. Bij een dergelijke participatie staat vaak het financiële rendement centraal en krijgen
+                vermogende
+                inwoners kans om hun geld te beleggen. Wij hebben ervoor gekozen om per geproduceerde megawattuur (MWh)
+                een bedrag aan
+                inwoners van het eiland van Schalkwijk te geven voor de verdere verduurzaming van woningen.
+            </p>
+            <p>
+
+                De bedoeling
+                hiervan is om
+                het energieverbruik per huishouden te verlagen, immers wat je niet gebruikt hoef je ook niet op te
+                wekken. In
+                samenwerking met Cooperatie Duurzaam Eiland wordt er per huishouden gekeken wat het meest effectief is
+                voor dat
+                huishouden en een directe bijdrage in de kosten betaalt, voor nader informatie zie
+                https://www.duurzaameiland.nl/energie-armoede/</p>
+            <img src="illustraties/illustratie 2.svg" alt="illustratie 2" />
+        </section>
+        <section id="TechnischeGegevens">
+            <h2>Technische Gegevens</h2>
+            <p>In totaal worden er ruim 30.000 zonnepanelen geïnstalleerd op ruim 16 hectare die op jaarbasis 17 MWh
+                gaan produceren.
+                Uitgaande van een gemiddeld verbruik per huishouden van 2500 Kwh (cijfers PBL 2022 voor woningen met
+                gas-aansluiting)
+                betekent dit het verbruik van 6.800 huishoudens. Komende jaren zal het electriciteitsverbruik van
+                woningen gaan stijgen
+                normaal gesproken en neemt de behoefte aan duurzame stroom alleen maar verder toe. Het moment waarop er
+                stroom wordt
+                aangeboden en gevraagd gaat echter steeds meer van elkaar afwijken. Op een zonnige zondag bijvoorbeeld
+                is er weinig
+                stroomvraag en wel aanbod wat steeds vaker leidt tot negatieve stroomprijzen. Mede hierom is in 2022 een
+                vergunning
+                aangevraagd voor een 10 MWh batterij die gebruikt gaat worden om deze onbalans helpen op te vangen. De
+                vergunning voor
+                de batterij is in 2023 verkregen en de batterijen zullen medio 2024 geplaatst gaan worden.</p>
+            <img src="illustraties/illustratie 3.svg" alt="Illustratie 3">
+        </section>
+
+        <section id="Nieuws">
+            <h2>Nieuws</h2>
+            <p>Tijdens de bouw zal met enige regelmaat een foto worden geplaats van de voortgang van het project.
+                Wanneer u
+                een
+                vraag of opmerking heeft kunt u dit via onderstaand email-adres kenbaar maken.</p>
+            <div class="images">
+                <a data-fslightbox data-alt="Een foto van de locatie van het zonnepark op de map van schalkwijk"
+                    href="afbeeldingen/Doc4-1.png">
+                    <img src="afbeeldingen/Doc4-1.png" alt="Image">
+                </a>
+                <a data-fslightbox data-alt="een schematische tekening van de zonne panelen"
+                    href="afbeeldingen/1905 ZW Schalkwijk Landsch inpassing_Accus V2.22 220629_kl-1.png">
+                    <img src="afbeeldingen/1905 ZW Schalkwijk Landsch inpassing_Accus V2.22 220629_kl-1.png"
+                        alt="Image">
+                </a>
+
+                <a data-fslightbox data-alt="foto 1 oktober" href="afbeeldingen/foto week 0.JPG">
+                    <img src="afbeeldingen/foto week 0.JPG" alt="Image">
+                </a>
+
+                <a data-fslightbox data-alt="foto 8 oktober" href="afbeeldingen/foto week 1.JPG">
+                    <img src="afbeeldingen/foto week 1.JPG" alt="Image">
+                </a>
+
+                <a data-fslightbox data-alt="foto 14 oktober" href="afbeeldingen/foto week 2.JPG">
+                    <img src="afbeeldingen/foto week 2.JPG" alt="Image">
+                </a>
+
+                <a data-fslightbox data-alt="foto 25 november" href="afbeeldingen/week 8.JPG">
+                    <img src="afbeeldingen/week 8.JPG" alt="Image">
+                </a>
+
+                <a data-fslightbox data-alt=" fotos 2 december" href="afbeeldingen/week 9.JPG">
+                    <img src="afbeeldingen/week 9.JPG" alt="Image">
+                </a>
+
+                <a data-fslightbox data-alt=" fotos 9 december" href="afbeeldingen/foto 9-12.JPG">
+                    <img src="afbeeldingen/foto 9-12.JPG" alt="Image">
+                </a>
+
+
+
+            </div>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form onsubmit="FormSubmit(event)">
+                <label for="naam">Naam</label>
+                <input type="text" id="naam" name="naam" placeholder="Naam" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="message">Je Bericht</label>
+                <textarea required name="message" placeholder="Je bericht..." id="message" cols="30"
+                    rows="10"></textarea>
+                <button type="submit" id="submit">
+                    <span class="loader"></span>
+                    Verzenden</button>
+                <div class="info"></div>
+            </form>
+        </section>
+    </main>
+
+
+    <script src="fslightbox.js"></script>
 </body>
 
 </html>

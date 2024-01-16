@@ -2,16 +2,19 @@
   "name": "schalkwijksestroom",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
-    "ngrok": "^5.0.0-beta.2"
+    "nodemailer": "^6.9.4",
+    "photoswipe": "^5.3.9"
   }
 }
